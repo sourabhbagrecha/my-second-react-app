@@ -16,13 +16,13 @@ function App() {
     <div className="App">
       <Layout>
         <Switch>
-          <Route exact path="/dice-app"         component={DiceApp}/>
-          <Route exact path="/color-boxes"      component={ColorBoxes}/>
-          <Route exact path="/color-box-maker"  component={ColorBoxMaker}/>
-          <Route exact path="/todo-app"         component={TodoApp}/>
-          <Route exact path="/game"             component={Game}/>
-          <Route exact path="/cards-game"       component={CardsGame}/>
-          <Route exact path="/dad-jokes-app"    component={DadJokesApp}/>
+          <Route exact path="/my-second-react-app/dice-app"         component={DiceApp}/>
+          <Route exact path="/my-second-react-app/color-boxes"      component={ColorBoxes}/>
+          <Route exact path="/my-second-react-app/color-box-maker"  component={ColorBoxMaker}/>
+          <Route exact path="/my-second-react-app/todo-app"         component={TodoApp}/>
+          <Route exact path="/my-second-react-app/game"             component={Game}/>
+          <Route exact path="/my-second-react-app/cards-game"       component={CardsGame}/>
+          <Route exact path="/my-second-react-app/dad-jokes-app"    component={DadJokesApp}/>
           <Route render={() => <h1>{"{err: 404, msg: Page Not Found}"}</h1>}/>
         </Switch>
       </Layout>

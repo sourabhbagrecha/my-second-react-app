@@ -12,25 +12,25 @@ class Layout extends Component{
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/dice-app">
+                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/my-second-react-app/dice-app">
                                 DiceApp          
                             </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/color-boxes">
+                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/my-second-react-app/color-boxes">
                                 ColorBoxes       
                             </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/color-box-maker">
+                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/my-second-react-app/color-box-maker">
                                 ColorBoxMaker    
                             </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/todo-app">
+                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/my-second-react-app/todo-app">
                                 TodoApp          
                             </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/game">
+                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/my-second-react-app/game">
                                 Yahtzee Game     
                             </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/cards-game">
+                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/my-second-react-app/cards-game">
                                 CardsGame        
                             </NavLink>
-                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/dad-jokes-app">
+                            <NavLink exact className="nav-link" activeClassName="active-nav-link" to="/my-second-react-app/dad-jokes-app">
                                 DadJokesApp      
                             </NavLink>
                         </Nav>

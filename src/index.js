@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-svg-core';
 import './index.css';
 import App from './App';
 const renderApp = 
-<BrowserRouter basename="/my-second-react-app">
+<BrowserRouter>
     <App/>
 </BrowserRouter>;
 ReactDOM.render(renderApp, document.getElementById('root'));

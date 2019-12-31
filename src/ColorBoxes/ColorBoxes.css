@@ -1,0 +1,4 @@
+.Boxes-Container{
+    display: flex;
+    flex-wrap: wrap;
+}

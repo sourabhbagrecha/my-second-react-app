@@ -1,0 +1,19 @@
+.DiceApp{
+    background-color: azure;
+    max-width: 800px;
+    margin: 140px auto;
+    border-radius: 5%;
+    padding: 30px;
+    box-shadow: 10px 10px 10px #e6e4e4;
+}
+
+.DiceApp-Dice-Container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin: 40px auto 40px auto;
+}
+
+.DiceRoller-Button{
+    font-size: 2rem;
+}

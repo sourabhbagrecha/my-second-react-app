@@ -1,0 +1,38 @@
+.DadJokesApp{
+    padding-top: 40px;
+    min-height: 100vh;
+    background: linear-gradient(
+        120deg,
+        rgba(179, 229, 252, 1) 0%,
+        rgba(179, 229, 252, 1) 50%,
+        rgba(240, 98, 146, 1) 50%,
+        rgba(240, 98, 146, 1) 199%
+    )
+}
+.DJA-text-first{
+    font-weight: 200;
+}
+.DJA-text-second{
+    font-weight: 800;
+}
+.DJA-jumbotron{
+    -moz-box-shadow:    0 0 10px #000000;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow:         0 0 10px #000000;
+    text-shadow: 1px 1px #df54d3;
+}
+.DJA-new-button, .DJA-new-button:hover, .DJA-new-button:focus{
+    color: black;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 2rem;
+    background: linear-gradient(
+        120deg,
+        rgba(179, 229, 252, 1) 0%,
+        rgba(179, 229, 252, 1) 50%,
+        rgba(240, 98, 146, 1) 50%,
+        rgba(240, 98, 146, 1) 199%
+    );
+    box-shadow: 0 10px 10px #000000;
+}

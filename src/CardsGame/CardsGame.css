@@ -1,0 +1,21 @@
+.CG-btn{
+    float: right;
+    color: black;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    background: linear-gradient(
+        120deg,
+        rgba(230, 157, 63, 1) 0%,
+        rgba(230, 157, 63, 1) 50%,
+        rgba(122, 8, 78, 0.966) 50%,
+        rgba(122, 8, 78, 0.966) 100%
+    );
+    box-shadow: 0 10px 10px #000000;
+}
+
+.CG-title{
+    font-weight: 800;
+    float: left;
+}

@@ -1,6 +1,7 @@
-.nav-link{
-    color: white;
-}
 .active-nav-link{
     font-weight: 800;
+}
+.navbar-brand-link,:hover{
+    text-decoration: none;
+    color: black;
 }

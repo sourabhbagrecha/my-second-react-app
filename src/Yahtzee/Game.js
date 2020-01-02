@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import Dice from "./Dice";
 import ScoreTable from "./ScoreTable";
 import "./Game.css";
-import { Container } from "react-bootstrap";
-
 
 const NUM_DICE = 5;
 const NUM_ROLLS = 3;

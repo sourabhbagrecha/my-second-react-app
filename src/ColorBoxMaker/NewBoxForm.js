@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import { Container, Button, Form, Col, Row, Jumbotron } from 'react-bootstrap';
+import { Container, Button, Form, Col, Row } from 'react-bootstrap';
 import uuid from 'uuid/v4';
 
 class NewBoxForm extends Component{
     state= {
-        width: '',
-        height: '',
+        width: '300',
+        height: '200',
         backgroundColor: '#00ffff',
     }
 
@@ -31,6 +31,7 @@ class NewBoxForm extends Component{
                                     name="width"
                                     value={this.state.width}
                                     onChange={this.onChange}
+                                    placeholder="px"
                                 />
                             </Form.Group>
                         </Col>
@@ -41,6 +42,7 @@ class NewBoxForm extends Component{
                                     name="height"
                                     value={this.state.height}
                                     onChange={this.onChange}
+                                    placeholder="px"
                                 />
                             </Form.Group>
                         </Col>
